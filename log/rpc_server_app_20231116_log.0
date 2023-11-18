@@ -1,0 +1,2 @@
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[./testcases/rpc_server.cc:22]	call makeOrder
+[DEBUG]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[./testcases/rpc_server.cc:22]	call makeOrder

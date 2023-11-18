@@ -1,0 +1,500 @@
+[DEBUG]	[23-11-16 16:10:45.14]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122245514]
+[INFO]	[23-11-16 16:10:45.15]	[16218:16218]	[Flyer/net/eventloop.cc:70]	wake fd = 4
+[INFO]	[23-11-16 16:10:45.15]	[16218:16218]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:45.15]	[16218:16218]	[Flyer/net/eventloop.cc:172]	Add event success, fd[4]
+[DEBUG]	[23-11-16 16:10:45.15]	[16218:16218]	[Flyer/net/timer.cc:12]	timer fd = 5
+[INFO]	[23-11-16 16:10:45.15]	[16218:16218]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:45.15]	[16218:16218]	[Flyer/net/eventloop.cc:172]	Add event success, fd[5]
+[INFO]	[23-11-16 16:10:45.15]	[16218:16218]	[Flyer/net/eventloop.cc:60]	Succce create event loop in thread 16218
+[DEBUG]	[23-11-16 16:10:45.15]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122245514
+[INFO]	[23-11-16 16:10:45.15]	[16218:16221]	[Flyer/net/eventloop.cc:70]	wake fd = 8
+[INFO]	[23-11-16 16:10:45.16]	[16218:16221]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16221]	[Flyer/net/eventloop.cc:172]	Add event success, fd[8]
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16221]	[Flyer/net/timer.cc:12]	timer fd = 9
+[INFO]	[23-11-16 16:10:45.16]	[16218:16221]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16221]	[Flyer/net/eventloop.cc:172]	Add event success, fd[9]
+[INFO]	[23-11-16 16:10:45.16]	[16218:16221]	[Flyer/net/eventloop.cc:60]	Succce create event loop in thread 16221
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16221]	[Flyer/net/io_thread.cc:47]	IOThread 16221 created, wait start semaphore
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16218]	[Flyer/net/io_thread.cc:21]	IOThread 16221 create success
+[INFO]	[23-11-16 16:10:45.16]	[16218:16222]	[Flyer/net/eventloop.cc:70]	wake fd = 11
+[INFO]	[23-11-16 16:10:45.16]	[16218:16222]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16222]	[Flyer/net/eventloop.cc:172]	Add event success, fd[11]
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16222]	[Flyer/net/timer.cc:12]	timer fd = 12
+[INFO]	[23-11-16 16:10:45.16]	[16218:16222]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16222]	[Flyer/net/eventloop.cc:172]	Add event success, fd[12]
+[INFO]	[23-11-16 16:10:45.16]	[16218:16222]	[Flyer/net/eventloop.cc:60]	Succce create event loop in thread 16222
+[DEBUG]	[23-11-16 16:10:45.16]	[16218:16222]	[Flyer/net/io_thread.cc:47]	IOThread 16222 created, wait start semaphore
+[DEBUG]	[23-11-16 16:10:45.17]	[16218:16218]	[Flyer/net/io_thread.cc:21]	IOThread 16222 create success
+[INFO]	[23-11-16 16:10:45.17]	[16218:16218]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:45.17]	[16218:16218]	[Flyer/net/eventloop.cc:172]	Add event success, fd[6]
+[INFO]	[23-11-16 16:10:45.17]	[16218:16218]	[Flyer/net/tcp/tcp_server.cc:11]	flyer TcpServer listen success on [127.0.0.1:12345]
+[DEBUG]	[23-11-16 16:10:45.17]	[16218:16218]	[Flyer/net/io_thread.cc:60]	Now invoke IOThread 16221
+[DEBUG]	[23-11-16 16:10:45.17]	[16218:16218]	[Flyer/net/io_thread.cc:60]	Now invoke IOThread 16222
+[DEBUG]	[23-11-16 16:10:45.17]	[16218:16221]	[Flyer/net/io_thread.cc:50]	IOThread 16221 start loop
+[DEBUG]	[23-11-16 16:10:45.17]	[16218:16222]	[Flyer/net/io_thread.cc:50]	IOThread 16222 start loop
+[DEBUG]	[23-11-16 16:10:45.515]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:45.515]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122246015]
+[DEBUG]	[23-11-16 16:10:45.515]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122246015
+[DEBUG]	[23-11-16 16:10:45.515]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122246015
+[DEBUG]	[23-11-16 16:10:46.15]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:46.15]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122246515]
+[DEBUG]	[23-11-16 16:10:46.15]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122246515
+[DEBUG]	[23-11-16 16:10:46.16]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122246515
+[DEBUG]	[23-11-16 16:10:46.515]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:46.515]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122247015]
+[DEBUG]	[23-11-16 16:10:46.515]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122247015
+[DEBUG]	[23-11-16 16:10:46.515]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122247015
+[DEBUG]	[23-11-16 16:10:47.15]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:47.15]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122247515]
+[DEBUG]	[23-11-16 16:10:47.15]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122247515
+[DEBUG]	[23-11-16 16:10:47.15]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122247515
+[DEBUG]	[23-11-16 16:10:47.516]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:47.516]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122248016]
+[DEBUG]	[23-11-16 16:10:47.516]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122248016
+[DEBUG]	[23-11-16 16:10:47.516]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122248016
+[DEBUG]	[23-11-16 16:10:48.16]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:48.16]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122248516]
+[DEBUG]	[23-11-16 16:10:48.16]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122248516
+[DEBUG]	[23-11-16 16:10:48.16]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122248516
+[DEBUG]	[23-11-16 16:10:48.517]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:48.517]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122249017]
+[DEBUG]	[23-11-16 16:10:48.517]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122249017
+[DEBUG]	[23-11-16 16:10:48.517]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122249017
+[DEBUG]	[23-11-16 16:10:49.18]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:49.18]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122249518]
+[DEBUG]	[23-11-16 16:10:49.18]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122249518
+[DEBUG]	[23-11-16 16:10:49.18]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122249518
+[DEBUG]	[23-11-16 16:10:49.424]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 6 trigger EPOLLIN event
+[INFO]	[23-11-16 16:10:49.424]	[16218:16218]	[Flyer/net/tcp/tcp_acceptor.cc:60]	A client has been accepted succ, peer addr[127.0.0.1:58330]
+[INFO]	[23-11-16 16:10:49.424]	[16218:16218]	[Flyer/net/tcp/tcp_server.cc:47]	TcpServer succ get client, fd=14
+[DEBUG]	[23-11-16 16:10:49.424]	[16218:16221]	[Flyer/net/eventloop.cc:136]	fd 8 trigger EPOLLIN event
+[INFO]	[23-11-16 16:10:49.425]	[16218:16221]	[Flyer/net/eventloop.cc:177]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:49.425]	[16218:16221]	[Flyer/net/eventloop.cc:177]	Add event success, fd[14]
+[DEBUG]	[23-11-16 16:10:49.425]	[16218:16221]	[Flyer/net/eventloop.cc:77]	Read full bytes from wakeup fd[8]
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/eventloop.cc:136]	fd 14 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/tcp/tcp_connection.cc:54]	success read 66 bytes from addr[127.0.0.1:12345], client fd[14]
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/coder/tinypb_coder.cc:123]	get pk len = 66
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/coder/tinypb_coder.cc:156]	parse msg_id_len=8
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/coder/tinypb_coder.cc:162]	parse msg_id=99998888
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/coder/tinypb_coder.cc:176]	parse method_name=OrderService.makeOrder
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/coder/tinypb_coder.cc:199]	parse error_info=
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/coder/tinypb_coder.cc:140]	decode end, read all buffer data
+[INFO]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/tcp/tcp_connection.cc:108]	success get request [99998888] from client[127.0.0.1:12345]
+[INFO]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/rpc/rpc_dispatcher.cc:122]	parse server_name [OrderService] and method_name [makeOrder] from full_name [OrderService.makeOrder]
+[INFO]	[23-11-16 16:10:49.426]	[16218:16221]	[Flyer/net/rpc/rpc_dispatcher.cc:72]	msg_id[99998888] | get rpc request [ret_code: 50 res_info: "IPhone"]
+[INFO]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/rpc/rpc_dispatcher.cc:95]	msg_id[99998888] | dispatch success, request[ret_code: 50 res_info: "IPhone"], response[ret_code: -1 res_info: "price not enough (< 100)"]
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/coder/tinypb_coder.cc:34]	msg_id = 99998888
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/coder/tinypb_coder.cc:37]	pk_len = 93
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/coder/tinypb_coder.cc:102]	encode message [ ÿÿÿÿÿÿÿÿÿprice not enough (< 100) ] success, msg_id=[99998888]
+[INFO]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 5
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:172]	Add event success, fd[14]
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:140]	fd 14 trigger EPOLLOUT event
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/tcp/tcp_connection.cc:168]	no data need to send to client [127.0.0.1:12345]
+[INFO]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:10:49.426]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:172]	Add event success, fd[14]
+[DEBUG]	[23-11-16 16:10:49.519]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:49.519]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122250019]
+[DEBUG]	[23-11-16 16:10:49.519]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122250019
+[DEBUG]	[23-11-16 16:10:49.519]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122250019
+[DEBUG]	[23-11-16 16:10:50.19]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:50.19]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122250519]
+[DEBUG]	[23-11-16 16:10:50.19]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122250519
+[DEBUG]	[23-11-16 16:10:50.19]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122250519
+[DEBUG]	[23-11-16 16:10:50.520]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:50.520]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122251020]
+[DEBUG]	[23-11-16 16:10:50.520]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122251020
+[DEBUG]	[23-11-16 16:10:50.520]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122251020
+[DEBUG]	[23-11-16 16:10:51.20]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:51.20]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122251520]
+[DEBUG]	[23-11-16 16:10:51.20]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122251520
+[DEBUG]	[23-11-16 16:10:51.20]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122251520
+[DEBUG]	[23-11-16 16:10:51.521]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:51.521]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122252021]
+[DEBUG]	[23-11-16 16:10:51.521]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122252021
+[DEBUG]	[23-11-16 16:10:51.521]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122252021
+[DEBUG]	[23-11-16 16:10:52.21]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:52.21]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122252521]
+[DEBUG]	[23-11-16 16:10:52.21]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122252521
+[DEBUG]	[23-11-16 16:10:52.21]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122252521
+[DEBUG]	[23-11-16 16:10:52.522]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:52.522]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122253022]
+[DEBUG]	[23-11-16 16:10:52.522]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122253022
+[DEBUG]	[23-11-16 16:10:52.522]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122253022
+[DEBUG]	[23-11-16 16:10:53.22]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:53.22]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122253522]
+[DEBUG]	[23-11-16 16:10:53.22]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122253522
+[DEBUG]	[23-11-16 16:10:53.22]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122253522
+[DEBUG]	[23-11-16 16:10:53.523]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:53.523]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122254023]
+[DEBUG]	[23-11-16 16:10:53.523]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122254023
+[DEBUG]	[23-11-16 16:10:53.523]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122254023
+[DEBUG]	[23-11-16 16:10:54.24]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:54.24]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122254524]
+[DEBUG]	[23-11-16 16:10:54.24]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122254524
+[DEBUG]	[23-11-16 16:10:54.24]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122254524
+[DEBUG]	[23-11-16 16:10:54.524]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:54.525]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122255025]
+[DEBUG]	[23-11-16 16:10:54.525]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122255025
+[DEBUG]	[23-11-16 16:10:54.525]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122255025
+[DEBUG]	[23-11-16 16:10:55.25]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:55.25]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122255525]
+[DEBUG]	[23-11-16 16:10:55.25]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122255525
+[DEBUG]	[23-11-16 16:10:55.25]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122255525
+[DEBUG]	[23-11-16 16:10:55.525]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:55.526]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122256026]
+[DEBUG]	[23-11-16 16:10:55.526]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122256026
+[DEBUG]	[23-11-16 16:10:55.526]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122256026
+[DEBUG]	[23-11-16 16:10:56.26]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:56.26]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122256526]
+[DEBUG]	[23-11-16 16:10:56.26]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122256526
+[DEBUG]	[23-11-16 16:10:56.26]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122256526
+[DEBUG]	[23-11-16 16:10:56.527]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:56.527]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122257027]
+[DEBUG]	[23-11-16 16:10:56.527]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122257027
+[DEBUG]	[23-11-16 16:10:56.527]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122257027
+[DEBUG]	[23-11-16 16:10:57.27]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:57.27]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122257527]
+[DEBUG]	[23-11-16 16:10:57.27]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122257527
+[DEBUG]	[23-11-16 16:10:57.27]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122257527
+[DEBUG]	[23-11-16 16:10:57.528]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:57.528]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122258028]
+[DEBUG]	[23-11-16 16:10:57.528]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122258028
+[DEBUG]	[23-11-16 16:10:57.528]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122258028
+[DEBUG]	[23-11-16 16:10:58.28]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:58.28]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122258528]
+[DEBUG]	[23-11-16 16:10:58.28]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122258528
+[DEBUG]	[23-11-16 16:10:58.29]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122258528
+[DEBUG]	[23-11-16 16:10:58.528]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:58.528]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122259028]
+[DEBUG]	[23-11-16 16:10:58.528]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122259028
+[DEBUG]	[23-11-16 16:10:58.528]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122259028
+[DEBUG]	[23-11-16 16:10:59.28]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:59.28]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122259528]
+[DEBUG]	[23-11-16 16:10:59.28]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122259528
+[DEBUG]	[23-11-16 16:10:59.28]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122259528
+[DEBUG]	[23-11-16 16:10:59.529]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:59.529]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122260029]
+[DEBUG]	[23-11-16 16:10:59.529]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122260029
+[DEBUG]	[23-11-16 16:10:59.529]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122260029
+[DEBUG]	[23-11-16 16:10:59.916]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:136]	fd 14 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:10:59.916]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/tcp/tcp_connection.cc:54]	success read 0 bytes from addr[127.0.0.1:12345], client fd[14]
+[INFO]	[23-11-16 16:10:59.916]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/tcp/tcp_connection.cc:77]	peer closed, peer addr[127.0.0.1:12345], clientfd[14]
+[DEBUG]	[23-11-16 16:10:59.916]	[16218:16221]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:185]	Delete event success, fd[14]
+[DEBUG]	[23-11-16 16:11:00.29]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:00.29]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122260529]
+[DEBUG]	[23-11-16 16:11:00.29]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122260529
+[DEBUG]	[23-11-16 16:11:00.29]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122260529
+[DEBUG]	[23-11-16 16:11:00.529]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:00.530]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122261030]
+[DEBUG]	[23-11-16 16:11:00.530]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122261030
+[DEBUG]	[23-11-16 16:11:00.530]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122261030
+[DEBUG]	[23-11-16 16:11:01.30]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:01.30]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122261530]
+[DEBUG]	[23-11-16 16:11:01.30]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122261530
+[DEBUG]	[23-11-16 16:11:01.30]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122261530
+[DEBUG]	[23-11-16 16:11:01.531]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:01.531]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122262031]
+[DEBUG]	[23-11-16 16:11:01.531]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122262031
+[DEBUG]	[23-11-16 16:11:01.531]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122262031
+[DEBUG]	[23-11-16 16:11:02.31]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:02.32]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122262532]
+[DEBUG]	[23-11-16 16:11:02.32]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122262532
+[DEBUG]	[23-11-16 16:11:02.32]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122262532
+[DEBUG]	[23-11-16 16:11:02.532]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:02.532]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122263032]
+[DEBUG]	[23-11-16 16:11:02.532]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122263032
+[DEBUG]	[23-11-16 16:11:02.532]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122263032
+[DEBUG]	[23-11-16 16:11:03.32]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:03.32]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122263532]
+[DEBUG]	[23-11-16 16:11:03.32]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122263532
+[DEBUG]	[23-11-16 16:11:03.32]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122263532
+[DEBUG]	[23-11-16 16:11:03.533]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:03.533]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122264033]
+[DEBUG]	[23-11-16 16:11:03.533]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122264033
+[DEBUG]	[23-11-16 16:11:03.533]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122264033
+[DEBUG]	[23-11-16 16:11:04.34]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:04.34]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122264534]
+[DEBUG]	[23-11-16 16:11:04.34]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122264534
+[DEBUG]	[23-11-16 16:11:04.34]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122264534
+[DEBUG]	[23-11-16 16:11:04.534]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:04.535]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122265035]
+[DEBUG]	[23-11-16 16:11:04.535]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122265035
+[DEBUG]	[23-11-16 16:11:04.535]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122265035
+[DEBUG]	[23-11-16 16:11:05.35]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:05.35]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122265535]
+[DEBUG]	[23-11-16 16:11:05.35]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122265535
+[DEBUG]	[23-11-16 16:11:05.35]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122265535
+[DEBUG]	[23-11-16 16:11:05.536]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:05.536]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122266036]
+[DEBUG]	[23-11-16 16:11:05.536]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122266036
+[DEBUG]	[23-11-16 16:11:05.536]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122266036
+[DEBUG]	[23-11-16 16:11:06.36]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:06.36]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122266536]
+[DEBUG]	[23-11-16 16:11:06.36]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122266536
+[DEBUG]	[23-11-16 16:11:06.36]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122266536
+[DEBUG]	[23-11-16 16:11:06.537]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:06.537]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122267037]
+[DEBUG]	[23-11-16 16:11:06.537]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122267037
+[DEBUG]	[23-11-16 16:11:06.537]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122267037
+[DEBUG]	[23-11-16 16:11:07.37]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:07.37]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122267537]
+[DEBUG]	[23-11-16 16:11:07.37]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122267537
+[DEBUG]	[23-11-16 16:11:07.37]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122267537
+[DEBUG]	[23-11-16 16:11:07.537]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:07.538]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122268038]
+[DEBUG]	[23-11-16 16:11:07.538]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122268038
+[DEBUG]	[23-11-16 16:11:07.538]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122268038
+[DEBUG]	[23-11-16 16:11:08.38]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:08.38]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122268538]
+[DEBUG]	[23-11-16 16:11:08.38]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122268538
+[DEBUG]	[23-11-16 16:11:08.39]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122268538
+[DEBUG]	[23-11-16 16:11:08.539]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:08.539]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122269039]
+[DEBUG]	[23-11-16 16:11:08.539]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122269039
+[DEBUG]	[23-11-16 16:11:08.539]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122269039
+[DEBUG]	[23-11-16 16:11:09.39]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:09.39]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122269539]
+[DEBUG]	[23-11-16 16:11:09.40]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122269539
+[DEBUG]	[23-11-16 16:11:09.40]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122269539
+[DEBUG]	[23-11-16 16:11:09.539]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:09.539]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122270039]
+[DEBUG]	[23-11-16 16:11:09.539]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122270039
+[DEBUG]	[23-11-16 16:11:09.539]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122270039
+[DEBUG]	[23-11-16 16:11:10.40]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:10.40]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122270540]
+[DEBUG]	[23-11-16 16:11:10.40]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122270540
+[DEBUG]	[23-11-16 16:11:10.40]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122270540
+[DEBUG]	[23-11-16 16:11:10.540]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:10.540]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122271040]
+[DEBUG]	[23-11-16 16:11:10.540]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122271040
+[DEBUG]	[23-11-16 16:11:10.540]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122271040
+[DEBUG]	[23-11-16 16:11:11.41]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:11.41]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122271541]
+[DEBUG]	[23-11-16 16:11:11.41]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122271541
+[DEBUG]	[23-11-16 16:11:11.41]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122271541
+[DEBUG]	[23-11-16 16:11:11.541]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:11.541]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122272041]
+[DEBUG]	[23-11-16 16:11:11.541]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122272041
+[DEBUG]	[23-11-16 16:11:11.541]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122272041
+[DEBUG]	[23-11-16 16:11:12.41]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:12.41]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122272541]
+[DEBUG]	[23-11-16 16:11:12.41]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122272541
+[DEBUG]	[23-11-16 16:11:12.42]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122272541
+[DEBUG]	[23-11-16 16:11:12.541]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:12.541]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122273041]
+[DEBUG]	[23-11-16 16:11:12.541]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122273041
+[DEBUG]	[23-11-16 16:11:12.541]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122273041
+[DEBUG]	[23-11-16 16:11:13.41]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:13.41]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122273541]
+[DEBUG]	[23-11-16 16:11:13.41]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122273541
+[DEBUG]	[23-11-16 16:11:13.41]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122273541
+[DEBUG]	[23-11-16 16:11:13.542]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:13.542]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122274042]
+[DEBUG]	[23-11-16 16:11:13.542]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122274042
+[DEBUG]	[23-11-16 16:11:13.542]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122274042
+[DEBUG]	[23-11-16 16:11:14.42]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:14.42]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122274542]
+[DEBUG]	[23-11-16 16:11:14.42]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122274542
+[DEBUG]	[23-11-16 16:11:14.42]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122274542
+[DEBUG]	[23-11-16 16:11:14.543]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:14.543]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122275043]
+[DEBUG]	[23-11-16 16:11:14.543]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122275043
+[DEBUG]	[23-11-16 16:11:14.543]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122275043
+[DEBUG]	[23-11-16 16:11:15.43]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:15.43]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122275543]
+[DEBUG]	[23-11-16 16:11:15.43]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122275543
+[DEBUG]	[23-11-16 16:11:15.43]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122275543
+[DEBUG]	[23-11-16 16:11:15.544]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:15.544]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122276044]
+[DEBUG]	[23-11-16 16:11:15.544]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122276044
+[DEBUG]	[23-11-16 16:11:15.544]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122276044
+[DEBUG]	[23-11-16 16:11:16.44]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:16.44]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122276544]
+[DEBUG]	[23-11-16 16:11:16.45]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122276544
+[DEBUG]	[23-11-16 16:11:16.45]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122276544
+[DEBUG]	[23-11-16 16:11:16.544]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:16.544]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122277044]
+[DEBUG]	[23-11-16 16:11:16.544]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122277044
+[DEBUG]	[23-11-16 16:11:16.544]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122277044
+[DEBUG]	[23-11-16 16:11:17.44]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:17.44]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122277544]
+[DEBUG]	[23-11-16 16:11:17.44]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122277544
+[DEBUG]	[23-11-16 16:11:17.44]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122277544
+[DEBUG]	[23-11-16 16:11:17.544]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:17.545]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122278045]
+[DEBUG]	[23-11-16 16:11:17.545]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122278045
+[DEBUG]	[23-11-16 16:11:17.545]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122278045
+[DEBUG]	[23-11-16 16:11:18.45]	[16218:16218]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:11:18.45]	[16218:16218]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122278545]
+[DEBUG]	[23-11-16 16:11:18.45]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122278545
+[DEBUG]	[23-11-16 16:11:18.45]	[16218:16218]	[Flyer/net/timer.cc:73]	timer reset to 1700122278545
+[DEBUG]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122361955]
+[INFO]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/eventloop.cc:70]	wake fd = 4
+[INFO]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/eventloop.cc:172]	Add event success, fd[4]
+[DEBUG]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/timer.cc:12]	timer fd = 5
+[INFO]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/eventloop.cc:172]	Add event success, fd[5]
+[INFO]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/eventloop.cc:60]	Succce create event loop in thread 16298
+[DEBUG]	[23-11-16 16:12:41.455]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122361955
+[INFO]	[23-11-16 16:12:41.456]	[16298:16301]	[Flyer/net/eventloop.cc:70]	wake fd = 8
+[INFO]	[23-11-16 16:12:41.456]	[16298:16301]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:41.456]	[16298:16301]	[Flyer/net/eventloop.cc:172]	Add event success, fd[8]
+[DEBUG]	[23-11-16 16:12:41.456]	[16298:16301]	[Flyer/net/timer.cc:12]	timer fd = 9
+[INFO]	[23-11-16 16:12:41.456]	[16298:16301]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:41.456]	[16298:16301]	[Flyer/net/eventloop.cc:172]	Add event success, fd[9]
+[INFO]	[23-11-16 16:12:41.456]	[16298:16301]	[Flyer/net/eventloop.cc:60]	Succce create event loop in thread 16301
+[DEBUG]	[23-11-16 16:12:41.456]	[16298:16301]	[Flyer/net/io_thread.cc:47]	IOThread 16301 created, wait start semaphore
+[DEBUG]	[23-11-16 16:12:41.456]	[16298:16298]	[Flyer/net/io_thread.cc:21]	IOThread 16301 create success
+[INFO]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/eventloop.cc:70]	wake fd = 11
+[INFO]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/eventloop.cc:172]	Add event success, fd[11]
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/timer.cc:12]	timer fd = 12
+[INFO]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/eventloop.cc:172]	Add event success, fd[12]
+[INFO]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/eventloop.cc:60]	Succce create event loop in thread 16302
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16298]	[Flyer/net/io_thread.cc:21]	IOThread 16302 create success
+[INFO]	[23-11-16 16:12:41.457]	[16298:16298]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16298]	[Flyer/net/eventloop.cc:172]	Add event success, fd[6]
+[INFO]	[23-11-16 16:12:41.457]	[16298:16298]	[Flyer/net/tcp/tcp_server.cc:11]	flyer TcpServer listen success on [127.0.0.1:12345]
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16298]	[Flyer/net/io_thread.cc:60]	Now invoke IOThread 16301
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16298]	[Flyer/net/io_thread.cc:60]	Now invoke IOThread 16302
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16301]	[Flyer/net/io_thread.cc:50]	IOThread 16301 start loop
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/io_thread.cc:47]	IOThread 16302 created, wait start semaphore
+[DEBUG]	[23-11-16 16:12:41.457]	[16298:16302]	[Flyer/net/io_thread.cc:50]	IOThread 16302 start loop
+[DEBUG]	[23-11-16 16:12:41.956]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:41.956]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122362456]
+[DEBUG]	[23-11-16 16:12:41.956]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122362456
+[DEBUG]	[23-11-16 16:12:41.956]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122362456
+[DEBUG]	[23-11-16 16:12:42.456]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:42.456]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122362956]
+[DEBUG]	[23-11-16 16:12:42.457]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122362956
+[DEBUG]	[23-11-16 16:12:42.457]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122362956
+[DEBUG]	[23-11-16 16:12:42.956]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:42.956]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122363456]
+[DEBUG]	[23-11-16 16:12:42.956]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122363456
+[DEBUG]	[23-11-16 16:12:42.956]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122363456
+[DEBUG]	[23-11-16 16:12:43.457]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:43.457]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122363957]
+[DEBUG]	[23-11-16 16:12:43.457]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122363957
+[DEBUG]	[23-11-16 16:12:43.457]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122363957
+[DEBUG]	[23-11-16 16:12:43.957]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:43.958]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122364458]
+[DEBUG]	[23-11-16 16:12:43.958]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122364458
+[DEBUG]	[23-11-16 16:12:43.958]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122364458
+[DEBUG]	[23-11-16 16:12:44.458]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:44.458]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122364958]
+[DEBUG]	[23-11-16 16:12:44.458]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122364958
+[DEBUG]	[23-11-16 16:12:44.459]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122364958
+[DEBUG]	[23-11-16 16:12:44.958]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:44.958]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122365458]
+[DEBUG]	[23-11-16 16:12:44.958]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122365458
+[DEBUG]	[23-11-16 16:12:44.958]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122365458
+[DEBUG]	[23-11-16 16:12:45.459]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:45.459]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122365959]
+[DEBUG]	[23-11-16 16:12:45.459]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122365959
+[DEBUG]	[23-11-16 16:12:45.459]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122365959
+[DEBUG]	[23-11-16 16:12:45.959]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:45.959]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122366459]
+[DEBUG]	[23-11-16 16:12:45.959]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122366459
+[DEBUG]	[23-11-16 16:12:45.959]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122366459
+[DEBUG]	[23-11-16 16:12:46.460]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:46.460]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122366960]
+[DEBUG]	[23-11-16 16:12:46.460]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122366960
+[DEBUG]	[23-11-16 16:12:46.460]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122366960
+[DEBUG]	[23-11-16 16:12:46.960]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:46.960]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122367460]
+[DEBUG]	[23-11-16 16:12:46.961]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122367460
+[DEBUG]	[23-11-16 16:12:46.961]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122367460
+[DEBUG]	[23-11-16 16:12:47.460]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:47.460]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122367960]
+[DEBUG]	[23-11-16 16:12:47.460]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122367960
+[DEBUG]	[23-11-16 16:12:47.460]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122367960
+[DEBUG]	[23-11-16 16:12:47.960]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:47.960]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122368460]
+[DEBUG]	[23-11-16 16:12:47.960]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122368460
+[DEBUG]	[23-11-16 16:12:47.960]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122368460
+[DEBUG]	[23-11-16 16:12:48.461]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:48.461]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122368961]
+[DEBUG]	[23-11-16 16:12:48.461]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122368961
+[DEBUG]	[23-11-16 16:12:48.461]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122368961
+[DEBUG]	[23-11-16 16:12:48.961]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:48.961]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122369461]
+[DEBUG]	[23-11-16 16:12:48.961]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122369461
+[DEBUG]	[23-11-16 16:12:48.961]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122369461
+[DEBUG]	[23-11-16 16:12:49.462]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:49.462]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122369962]
+[DEBUG]	[23-11-16 16:12:49.462]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122369962
+[DEBUG]	[23-11-16 16:12:49.462]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122369962
+[DEBUG]	[23-11-16 16:12:49.962]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:49.962]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122370462]
+[DEBUG]	[23-11-16 16:12:49.963]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122370462
+[DEBUG]	[23-11-16 16:12:49.963]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122370462
+[DEBUG]	[23-11-16 16:12:50.462]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:50.462]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122370962]
+[DEBUG]	[23-11-16 16:12:50.462]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122370962
+[DEBUG]	[23-11-16 16:12:50.462]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122370962
+[DEBUG]	[23-11-16 16:12:50.962]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:50.963]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122371463]
+[DEBUG]	[23-11-16 16:12:50.963]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122371463
+[DEBUG]	[23-11-16 16:12:50.963]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122371463
+[DEBUG]	[23-11-16 16:12:51.225]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 6 trigger EPOLLIN event
+[INFO]	[23-11-16 16:12:51.225]	[16298:16298]	[Flyer/net/tcp/tcp_acceptor.cc:60]	A client has been accepted succ, peer addr[127.0.0.1:36898]
+[INFO]	[23-11-16 16:12:51.225]	[16298:16298]	[Flyer/net/tcp/tcp_server.cc:47]	TcpServer succ get client, fd=14
+[DEBUG]	[23-11-16 16:12:51.225]	[16298:16301]	[Flyer/net/eventloop.cc:136]	fd 8 trigger EPOLLIN event
+[INFO]	[23-11-16 16:12:51.225]	[16298:16301]	[Flyer/net/eventloop.cc:177]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:51.225]	[16298:16301]	[Flyer/net/eventloop.cc:177]	Add event success, fd[14]
+[DEBUG]	[23-11-16 16:12:51.225]	[16298:16301]	[Flyer/net/eventloop.cc:77]	Read full bytes from wakeup fd[8]
+[DEBUG]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/eventloop.cc:136]	fd 14 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/tcp/tcp_connection.cc:54]	success read 66 bytes from addr[127.0.0.1:12345], client fd[14]
+[DEBUG]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/coder/tinypb_coder.cc:123]	get pk len = 66
+[DEBUG]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/coder/tinypb_coder.cc:156]	parse msg_id_len=8
+[DEBUG]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/coder/tinypb_coder.cc:162]	parse msg_id=99998888
+[DEBUG]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/coder/tinypb_coder.cc:176]	parse method_name=OrderService.makeOrder
+[DEBUG]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/coder/tinypb_coder.cc:199]	parse error_info=
+[DEBUG]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/coder/tinypb_coder.cc:140]	decode end, read all buffer data
+[INFO]	[23-11-16 16:12:51.226]	[16298:16301]	[Flyer/net/tcp/tcp_connection.cc:108]	success get request [99998888] from client[127.0.0.1:12345]
+[INFO]	[23-11-16 16:12:51.227]	[16298:16301]	[Flyer/net/rpc/rpc_dispatcher.cc:122]	parse server_name [OrderService] and method_name [makeOrder] from full_name [OrderService.makeOrder]
+[INFO]	[23-11-16 16:12:51.227]	[16298:16301]	[Flyer/net/rpc/rpc_dispatcher.cc:72]	msg_id[99998888] | get rpc request [ret_code: 50 res_info: "IPhone"]
+[INFO]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/rpc/rpc_dispatcher.cc:95]	msg_id[99998888] | dispatch success, request[ret_code: 50 res_info: "IPhone"], response[ret_code: -1 res_info: "price not enough (< 100)"]
+[DEBUG]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/coder/tinypb_coder.cc:34]	msg_id = 99998888
+[DEBUG]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/coder/tinypb_coder.cc:37]	pk_len = 93
+[DEBUG]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/coder/tinypb_coder.cc:102]	encode message [ ÿÿÿÿÿÿÿÿÿprice not enough (< 100) ] success, msg_id=[99998888]
+[INFO]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 5
+[DEBUG]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:172]	Add event success, fd[14]
+[DEBUG]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:140]	fd 14 trigger EPOLLOUT event
+[DEBUG]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/tcp/tcp_connection.cc:168]	no data need to send to client [127.0.0.1:12345]
+[INFO]	[23-11-16 16:12:51.227]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:172]	epoll_event.events = 1
+[DEBUG]	[23-11-16 16:12:51.228]	[16298:16301]	[99998888]	[makeOrder]	[Flyer/net/eventloop.cc:172]	Add event success, fd[14]
+[DEBUG]	[23-11-16 16:12:51.463]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:51.463]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122371963]
+[DEBUG]	[23-11-16 16:12:51.463]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122371963
+[DEBUG]	[23-11-16 16:12:51.464]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122371963
+[DEBUG]	[23-11-16 16:12:51.963]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:51.963]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122372463]
+[DEBUG]	[23-11-16 16:12:51.963]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122372463
+[DEBUG]	[23-11-16 16:12:51.963]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122372463
+[DEBUG]	[23-11-16 16:12:52.464]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:52.464]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122372964]
+[DEBUG]	[23-11-16 16:12:52.464]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122372964
+[DEBUG]	[23-11-16 16:12:52.464]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122372964
+[DEBUG]	[23-11-16 16:12:52.964]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:52.964]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122373464]
+[DEBUG]	[23-11-16 16:12:52.964]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122373464
+[DEBUG]	[23-11-16 16:12:52.965]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122373464
+[DEBUG]	[23-11-16 16:12:53.464]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:53.464]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122373964]
+[DEBUG]	[23-11-16 16:12:53.464]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122373964
+[DEBUG]	[23-11-16 16:12:53.464]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122373964
+[DEBUG]	[23-11-16 16:12:53.965]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:53.965]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122374465]
+[DEBUG]	[23-11-16 16:12:53.965]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122374465
+[DEBUG]	[23-11-16 16:12:53.965]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122374465
+[DEBUG]	[23-11-16 16:12:54.465]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:54.466]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122374966]
+[DEBUG]	[23-11-16 16:12:54.466]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122374966
+[DEBUG]	[23-11-16 16:12:54.466]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122374966
+[DEBUG]	[23-11-16 16:12:54.966]	[16298:16298]	[Flyer/net/eventloop.cc:136]	fd 5 trigger EPOLLIN event
+[DEBUG]	[23-11-16 16:12:54.966]	[16298:16298]	[Flyer/net/time_event.cc:14]	success create timer event, will excute at [1700122375466]
+[DEBUG]	[23-11-16 16:12:54.966]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122375466
+[DEBUG]	[23-11-16 16:12:54.966]	[16298:16298]	[Flyer/net/timer.cc:73]	timer reset to 1700122375466
